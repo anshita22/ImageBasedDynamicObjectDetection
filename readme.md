@@ -11,11 +11,15 @@
 5. Applications
 6. Scope for improvement
 
+***
+
 ### **1. YOLO Algorithm**
 
 You only look once (YOLO) is a state-of-the-art, real-time object detection system. YOLO is a convolutional neural network (CNN) for performing object detection in real-time. The YOLO algorithm works by applying a single neural network to the full image, and then dividing the image into regions and predicting bounding boxes and probabilities for each region. These bounding boxes are then weighted by the predicted class probabilities.
 
 YOLO became popular because it gives higher accuracy and alse being able to perform object detection in real-time. The algorithm is named as  “you only looks once” as it requires only one forward propagation pass through the neural network to make predictions.
+
+***
 
 ### **2. Different versions of YOLO**
 
@@ -48,6 +52,8 @@ YOLO v3 uses Darknet-53 network which has 53 convolutional layers. Key features 
 
  YOLO v3 makes predictions as that of FPN-Feature Pyramid Networks where 3 predictions are made for every location in the input image and features are extracted from each prediction. 
 
+***
+
 #### **3. Architecture of YOLO v3**
 
 ![YOLO v3 network Architecture](yolo_architecture.png)
@@ -75,6 +81,8 @@ _Convolution layers in YOLOv3_
 * Convolution layer is used to convolve multiple filters on the images and produces multiple feature maps
 * No form of pooling is used and a convolutional layer with stride 2 is used to downsample the feature maps.
 * It helps in preventing loss of low-level features often attributed to pooling.
+
+***
 
 ### **How the YOLO algorithm works**
 
@@ -111,6 +119,8 @@ First, the image is divided into grid cells. Each grid cell forecasts B bounding
 
 Intersection over union ensures that the predicted bounding boxes are equal to the real boxes of the objects. This phenomenon eliminates unnecessary bounding boxes that do not meet the characteristics of the objects (like height and width). The final detection will consist of unique bounding boxes that fit the objects perfectly.
 
+***
+
 ### **4. Results**
 
 **Output 1**
@@ -138,6 +148,8 @@ Intersection over union ensures that the predicted bounding boxes are equal to t
 1. Autonomous driving: YOLO algorithm can be used in autonomous cars to detect objects around cars such as vehicles, people, and parking signals. 
 2. Wildlife: This algorithm is used to detect various types of animals in forests. 
 3. Security: YOLO can also be used in security systems to enforce security in an area. 
+
+***
 
 ### **6. Scope for improvement**
 
