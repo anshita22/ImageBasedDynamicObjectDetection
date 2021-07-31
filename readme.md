@@ -1,3 +1,4 @@
+# IMAGE BASED DYNAMIC OBJECT DETECTION
 # YOLO ALGORITHM
 
 ## Contents to be discussed:
@@ -122,6 +123,8 @@ Intersection over union ensures that the predicted bounding boxes are equal to t
 ***
 
 ### **4. Results**
+
+**Dataset used for training: COCO dataset**
 
 **Output 1**
 ![Output 1](output1.png)
